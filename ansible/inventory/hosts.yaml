@@ -1,0 +1,13 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        k3sc2s1:
+          ansible_user: tyler
+          ansible_host: 192.168.1.40
+    worker:
+      hosts:
+        k3sc2w1:
+          ansible_user: tyler
+          ansible_host: 192.168.1.41
